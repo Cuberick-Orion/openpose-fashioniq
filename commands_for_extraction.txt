@@ -1,0 +1,3 @@
+## Used for extracting `fashion-iq-dev/data/openpose_pose_json`
+
+CUDA_VISIBLE_DEVICES=0,1,2,3,4,5 ./build/examples/openpose/openpose.bin --model_pose BODY_25 --image_dir extract_pose/fashioniq_img/ --write_json extract_pose/fashioniq_openpose_output/ --display 0 --render_pose 0 --keypoint_scale 3
